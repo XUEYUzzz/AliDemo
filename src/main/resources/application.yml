@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ali-demo
+  cloud:
+    ai:
+      tongyi:
+
+
+        chat:
+          options:
+            model: qwen-max
+        connection:
+          api-key: ${ALI_API_KEY}
+
+
